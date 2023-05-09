@@ -1,0 +1,137 @@
+.about-card{
+    display: flex;
+    flex-direction: row;
+    padding: .1rem;
+    margin: .5rem;
+    justify-content: center;
+    min-width: 55rem;
+    max-width: 60rem;
+    min-height: 5rem;
+    max-height: 10rem;
+}
+
+.about-text{
+    color: #fff;
+    font-size: 19px;
+    min-width: 40rem;
+    max-width: 40rem;
+    min-height: 9rem;
+    max-height: 9rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.about-img{
+    min-width: 9rem;
+    max-width: 9rem;
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    .about-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 20rem;
+        max-width: 24rem;
+        min-height: 35rem;
+        max-height: 40rem;
+
+    }
+    
+    .about-text{
+        min-width: 20rem;
+        max-width: 25rem;
+        min-height: 15rem;
+        max-height: 20rem;
+        font-size: 16px;
+    }
+    
+    .about-img{
+        min-width: 15rem;
+        max-width:20rem;
+        min-height: 15rem;
+        max-height: 20rem;
+    }
+}
+
+/* Tablets */
+@media (min-width: 480px) and (max-width: 768px) {
+    .about-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 27rem;
+        max-width: 31rem;
+        min-height: 40rem;
+        max-height: 50rem;
+
+    }
+    
+    .about-text{
+        min-width: 22rem;
+        max-width: 25rem;
+        min-height: 20rem;
+        max-height: 24rem;
+        font-size: 19px;
+    }
+    
+    .about-img{
+        min-width: 20rem;
+        max-width:23rem;
+        min-height: 20rem;
+        max-height: 23rem;
+    }
+}
+
+/* Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-card{
+        min-width: 45rem;
+        max-width: 60rem;
+        min-height: 10rem;
+        max-height: 15rem;
+
+    }
+    
+    .about-text{
+        min-width: 26rem;
+        max-width: 30rem;
+        min-height: 10rem;
+        max-height: 15rem;
+        font-size: 15px;
+    }
+    
+    .about-img{
+        min-width: 10rem;
+        max-width:15rem;
+        min-height: 10rem;
+        max-height: 15rem;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .about-card{
+        min-width: 62rem;
+        max-width: 70rem;
+        min-height: 15rem;
+        max-height: 20rem;
+
+    }
+    
+    .about-text{
+        min-width: 36rem;
+        max-width: 30rem;
+        min-height: 15rem;
+        max-height: 20rem;
+        font-size: 20px;
+    }
+    
+    .about-img{
+        min-width: 15rem;
+        max-width: 20rem;
+        min-height: 15rem;
+        max-height: 20rem;
+    }
+}
