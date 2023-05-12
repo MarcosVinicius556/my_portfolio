@@ -6,22 +6,11 @@
     justify-content: center;
     align-items: center;
     background: #383838;
-    /* border: 2px solid red; */
 }
 
 .projects h1{
     color: #fff;
     font-size: 44px;
-}
-
-.projects-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid yellow; */
 }
 
 /* Celulares */

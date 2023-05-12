@@ -1,0 +1,21 @@
+.main-carousel{
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.inner {
+  display: flex;
+}
+
+.item {
+  pointer-events: none;
+}

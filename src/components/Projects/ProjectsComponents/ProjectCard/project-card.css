@@ -46,7 +46,8 @@
 }
 
 .project-description{
-    overflow:auto; 
+    overflow-y: scroll; 
+    height: 130px;
 }
 
 
