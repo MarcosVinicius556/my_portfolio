@@ -1,5 +1,5 @@
 .projects{
-    height: 2500PX;
+    height: 1500PX;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -10,7 +10,8 @@
 
 .projects h1{
     color: #fff;
-    font-size: 44px;
+    font-size: 62px;
+    margin-bottom: 10rem;
 }
 
 /* Celulares */
@@ -62,7 +63,7 @@
 /* Desktop */
 @media (min-width: 1024px) {
     .projects{
-        height: 1050px;
+        height: 1000px;
     }
 
     .projects-container{

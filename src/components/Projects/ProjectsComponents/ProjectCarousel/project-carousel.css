@@ -1,10 +1,18 @@
 .main-carousel{
-  width: 1200px;
+  width: 80%;
   height: 500px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #393746;
+  border: 2px solid #323232;
+  border-radius: 5px;
+  padding: .5rem;
+
+  -webkit-box-shadow: inset 0px 0px 36px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 36px 5px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 36px 5px rgba(0,0,0,0.75);
 }
 
 .carousel {
@@ -19,3 +27,5 @@
 .item {
   pointer-events: none;
 }
+
+/* Implementar media queries */
