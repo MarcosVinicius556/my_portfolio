@@ -37,7 +37,7 @@ function About() {
   const textoProfissional = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis dolore? A molestiae autem, ratione ab doloribus, fugit reprehenderit, beatae totam nihil assumenda vel magni in ipsa esse eos quidem!';
 
   return (
-    <section className="about">
+    <section className="about" id="section-about">
         <h1 className="about-title">Sobre mim</h1>
         <AboutCard texto={textoCrianca} img={ImgCrianca} inverse={false} />
         <AboutCard texto={textoJovem} img={ImgGuitar} inverse={windowDimesions.width > 768} />

@@ -7,7 +7,7 @@ function PageHeader() {
     <>
       <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#section-presentation">
             <img
               alt=""
               src={Logo}
@@ -20,11 +20,10 @@ function PageHeader() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Início</Nav.Link>
-              <Nav.Link href="#link">Apresentação</Nav.Link>
-              <Nav.Link href="#link">Sobre</Nav.Link>
-              <Nav.Link href="#link">Projetos</Nav.Link>
-              <Nav.Link href="#link">Contato</Nav.Link>
+              <Nav.Link href="#section-presentation">Apresentação</Nav.Link>
+              <Nav.Link href="#section-about">Sobre</Nav.Link>
+              <Nav.Link href="#section-projects">Projetos</Nav.Link>
+              <Nav.Link href="#section-social">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

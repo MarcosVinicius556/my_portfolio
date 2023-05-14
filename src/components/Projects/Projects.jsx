@@ -1,13 +1,11 @@
 import './projects.css'
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios';
 import ProjectCarousel from './ProjectsComponents/ProjectCarousel/ProjectCarousel';
 
 function Projects() {
 
   const [projects, setProjetcts] = useState([]);
-  const [screenWidth, setScreenWidth] = useState(0);
-  const carousel = useRef();
 
   useEffect(() =>{
     const base_url = 'https://api.github.com/users/MarcosVinicius556/repos';
@@ -21,12 +19,8 @@ function Projects() {
          });
   }, []);
 
-  useEffect(()=>{
-      setScreenWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
-  }, []);
-
   return (
-    <section className="projects">
+    <section className="projects" id="section-projects">
       <h1>Meus projetos</h1>
       <ProjectCarousel projectList={projects} />
     </section>

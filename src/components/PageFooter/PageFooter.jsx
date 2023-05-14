@@ -5,7 +5,7 @@ function PageFooter() {
     <>
        <footer>
 		<a name="footer"></a>
-		<div className="social">
+		<div className="social" id="section-social">
 			<ul>
 				<div></div>
                 <li>

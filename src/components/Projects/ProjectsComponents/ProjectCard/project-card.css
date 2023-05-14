@@ -10,11 +10,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #4F4847;
+    background: #ffffff4b;
+    backdrop-filter: blur(5px);
 
-    -webkit-box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 24px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 17px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px 7px rgba(0,0,0,0.75);
 }
 
 
@@ -73,4 +74,96 @@
 
 .project-redirect:hover{
     background: #1d1d1d;
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    .card{
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 300px;
+        max-height: 300px;
+    }
+
+    .project-title{
+        font-size: 19px;
+    }
+    
+    .desc-container{
+        width: 280px;
+        height: 160px;
+        padding: .2rem;
+    }
+    
+    .lang-container{
+        width: 280px;
+        height: 25px;
+        padding: 0;
+    }
+    
+    .project-description{
+        overflow-y: scroll; 
+        height: 154px;
+    }
+    
+    
+    .main-language{
+    
+    }
+    
+    .project-redirect{
+        height: 40px;
+        width: 250px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 480px) and (max-width: 768px) {
+    .card{
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 300px;
+        max-height: 300px;
+    }
+
+    .project-title{
+        font-size: 19px;
+    }
+    
+    .desc-container{
+        width: 280px;
+        height: 160px;
+        padding: .2rem;
+    }
+    
+    .lang-container{
+        width: 280px;
+        height: 25px;
+        padding: 0;
+    }
+    
+    .project-description{
+        overflow-y: scroll; 
+        height: 154px;
+    }
+    
+    
+    .main-language{
+    
+    }
+    
+    .project-redirect{
+        height: 40px;
+        width: 250px;
+    }
+}
+
+/* Laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    
 }

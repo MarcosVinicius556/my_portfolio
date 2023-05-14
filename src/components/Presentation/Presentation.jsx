@@ -4,7 +4,7 @@ import './presentation.css';
 function Presentation() {
   return (
     <> 
-    <section id="presentation">
+    <section id="section-presentation">
 
         <div id="dev-data">
             <h1 className="dev-name">
@@ -15,7 +15,7 @@ function Presentation() {
             </h2>
         </div>
 
-        <button className="see-more">Ver mais...</button>
+        <button className="see-more" href="#section-about">Ver mais...</button>
     </section>
     </>
   )

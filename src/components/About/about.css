@@ -6,8 +6,15 @@
     align-items: center;
     height: 250px;
     padding: 1rem;
-    background: #383838;
+    background: url('../../assets/about-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     /* border: 2px solid brown; */
+
+    -webkit-box-shadow: inset 0px 0px 20px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 20px 4px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 20px 4px rgba(0,0,0,0.75);
 }
 
 .about-title{
