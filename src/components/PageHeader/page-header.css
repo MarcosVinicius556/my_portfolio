@@ -1,5 +1,21 @@
-span{
-    color: red;
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
+
+.name-logo{
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: #4b889e;
 }
 
 .pageHeader{
