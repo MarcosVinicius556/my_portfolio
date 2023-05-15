@@ -5,22 +5,62 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../../../../assets/cards-background.jpg');
+  background: url('../../../../assets/carousel-background.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid #323232;
-  border-radius: 5px;
-  padding: .5rem;
+  border: none;
+  border-radius: 55px;
+  padding: .2rem;
 
-  -webkit-box-shadow: inset 0px 0px 36px 5px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset 0px 0px 36px 5px rgba(0,0,0,0.75);
-  box-shadow: inset 0px 0px 36px 5px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+  
 }
 
 .carousel {
   cursor: grab;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  scroll-behavior: smooth;
+}
+
+.buttons-carousel {
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-carousel {
+  border-radius: 5px;
+  backdrop-filter: blur(15px);
+  height: 100%;
+  min-width: 79px;
+  transition: transform .3s;
+  border-radius: 5px;
+  border: none;
+  background: url('../../../../assets/seta.png');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  -webkit-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+}
+
+.btn-carousel:hover{
+  backdrop-filter: brightness(2);
+}
+
+.voltar{
+  transform: rotate(180deg);
+}
+
+.avancar{
 }
 
 .inner {
@@ -30,6 +70,7 @@
 .item {
   pointer-events: none;
 }
+
 
 /* Celulares */
 @media (max-width: 480px) {

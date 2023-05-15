@@ -13,6 +13,16 @@ function ProjectCarousel({ projectList }) {
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
   }, []);
 
+  const handleLeftClick = (e) => {
+    e.preventDefault();
+    carousel.current.scrollLeft -= carousel.current.offsetWidth;
+  }
+
+  const handleRigthClick = (e) => {
+    e.preventDefault();
+    carousel.current.scrollLeft += carousel.current.offsetWidth;
+  }
+
   return (
     <>
       <div className="main-carousel">
@@ -35,6 +45,10 @@ function ProjectCarousel({ projectList }) {
               }
           </motion.div>
         </motion.div>
+      </div>
+      <div className="buttons-carousel">
+        <button className='btn-carousel voltar' onClick={handleLeftClick}></button>
+        <button className='btn-carousel avancar' onClick={handleRigthClick}></button>
       </div>
     </>
   )

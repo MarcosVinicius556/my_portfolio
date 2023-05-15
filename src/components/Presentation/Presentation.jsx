@@ -11,11 +11,11 @@ function Presentation() {
                 Marcos Vinicius
             </h1>
             <h2 className="dev-description">
-                Software Developer
+                Fullstack Software Developer
             </h2>
         </div>
 
-        <button className="see-more" href="#section-about">Ver mais...</button>
+        <a className="see-more" href="#section-about">Ver mais...</a>
     </section>
     </>
   )

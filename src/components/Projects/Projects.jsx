@@ -22,6 +22,12 @@ function Projects() {
   return (
     <section className="projects" id="section-projects">
       <h1>Meus projetos</h1>
+      <p className='projects-text'>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Recusandae, accusamus quaerat corporis, voluptas aut minus
+        perferendis iure non iste fuga atque ullam magni.
+        Nulla repellat cum neque quidem accusamus soluta.
+      </p>
       <ProjectCarousel projectList={projects} />
     </section>
   )

@@ -46,15 +46,19 @@
     border-radius: .5rem;
     color: #fff;
     font-size: 1.5rem;
-    background: linear-gradient();
-    animation: introduction 2.5s ease-in-out, pulse 3s infinite;
     position: static;
     margin-top: 9rem;
     margin-bottom: 1rem;
     background: #35323d;
     border: none;
     transition: .4s;
-
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    animation: introduction 2.5s ease-in-out, pulse 3s infinite;
     box-shadow: 0px 1px 42px 4px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 1px 42px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 1px 42px 4px rgba(0,0,0,0.75);
@@ -62,6 +66,7 @@
 
 .see-more:hover{
     background: #1d1d1d;
+    color:#fff;
 }
 
 @keyframes introduction {

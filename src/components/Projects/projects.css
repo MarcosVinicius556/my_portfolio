@@ -14,13 +14,20 @@
 .projects h1{
     color: #fff;
     font-size: 62px;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
+}
+
+.projects-text {
+    font-size: 25px;
+    margin: 5rem;
+    text-align: justify;
+    color: #fff;
 }
 
 /* Celulares */
 @media (max-width: 480px) {
     .projects{
-        height: 900px;
+        height: 1100px;
     }
 
     .projects h1{
@@ -30,12 +37,16 @@
     .projects-container{
         flex-direction: column;
     }
+
+    .projects-text {
+        margin: 2rem;
+    }
 }
 
 /* Tablets */
 @media (min-width: 480px) and (max-width: 768px) {
     .projects{
-        height: 1000px;
+        height: 1300px;
     }
 
     .projects h1{

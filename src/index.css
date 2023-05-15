@@ -4,3 +4,23 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+:target {
+    scroll-margin-top: .8em;
+}
+
+
+::-webkit-scrollbar-track{
+  border-radius: 5px;
+  background-color: #1B1528;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+  background-color: #1B1528;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background: linear-gradient(45deg, #1B1528,#4045A0, #1B1528);
+}
