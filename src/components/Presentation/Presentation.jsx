@@ -1,5 +1,5 @@
 import './presentation.css';
-
+import { Link } from 'react-router-dom';
 
 function Presentation() {
   return (
@@ -15,7 +15,7 @@ function Presentation() {
             </h2>
         </div>
 
-        <a className="see-more" href="#section-about">Ver mais...</a>
+        <Link className="see-more" to="/about">Ver mais...</Link>
     </section>
     </>
   )

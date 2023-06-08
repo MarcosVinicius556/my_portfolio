@@ -9,7 +9,6 @@ function ProjectCarousel({ projectList }) {
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
-    console.log(`${carousel.current?.scrollWidth} ${carousel.current?.offsetWidth}`)
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
   }, []);
 
@@ -26,6 +25,7 @@ function ProjectCarousel({ projectList }) {
   return (
     <>
       <div className="main-carousel">
+      <button className='btn-carousel voltar' onClick={handleLeftClick}></button>
         <motion.div ref={carousel} className='carousel' whileTap={{ cursor: 'grabbing' }}> 
           <motion.div 
           className='inner'
@@ -45,9 +45,6 @@ function ProjectCarousel({ projectList }) {
               }
           </motion.div>
         </motion.div>
-      </div>
-      <div className="buttons-carousel">
-        <button className='btn-carousel voltar' onClick={handleLeftClick}></button>
         <button className='btn-carousel avancar' onClick={handleRigthClick}></button>
       </div>
     </>

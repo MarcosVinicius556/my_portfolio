@@ -38,7 +38,7 @@ function About() {
 
   return (
     <section className="about" id="section-about">
-        <h1 className="about-title">Sobre mim</h1>
+        <p className="about-title">Sobre mim</p>
         <AboutCard texto={textoCrianca} img={ImgCrianca} inverse={false} />
         <AboutCard texto={textoJovem} img={ImgGuitar} inverse={windowDimesions.width > 768} />
         <AboutCard texto={textoAdulto} img={ImgWorker} inverse={false} />

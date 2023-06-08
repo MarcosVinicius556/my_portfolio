@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+body {
+  background: #323232;
+}
+
 :target {
     scroll-margin-top: .8em;
 }
@@ -22,5 +26,15 @@
 
 ::-webkit-scrollbar-thumb{
   border-radius: 5px;
-  background: linear-gradient(45deg, #464646,#353aa0, #464646);
+  background: linear-gradient(45deg, #434343,#1c1c1c, #464646);
+}
+
+
+@keyframes reveal {
+from{
+    opacity: 0;
+}
+to{
+    opacity: 1;
+}
 }

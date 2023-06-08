@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap"
-import Logo from '../../assets/desenvolvedor.png'
+import { Link } from "react-router-dom";
 import './page-header.css'
 
 function PageHeader() {
@@ -15,10 +15,10 @@ function PageHeader() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#section-presentation">Apresentação</Nav.Link>
-              <Nav.Link href="#section-about">Sobre</Nav.Link>
-              <Nav.Link href="#section-projects">Projetos</Nav.Link>
-              <Nav.Link href="#section-social">Contato</Nav.Link>
+              <Nav.Link as={Link} to = "/">Apresentação</Nav.Link>
+              <Nav.Link as={Link} to = "/about">Sobre</Nav.Link>
+              <Nav.Link as={Link} to = "/projects">Projetos</Nav.Link>
+              <Nav.Link as={Link} to = "/contact">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

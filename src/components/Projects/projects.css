@@ -9,7 +9,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: reveal .5s ease-in-out;
 }
+
 
 .projects h1{
     color: #fff;

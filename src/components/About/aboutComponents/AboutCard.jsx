@@ -3,7 +3,7 @@ import './about-card.css';
 // eslint-disable-next-line react/prop-types
 function AboutCard({texto, img, inverse}) {
   return (
-    <div className="about-card">
+    <div className={`about-card ${inverse ? 'left-reveal' : 'right-reveal'}`}>
         { inverse && <p className="about-text">{texto}</p> }
         <img 
          src={img} 
