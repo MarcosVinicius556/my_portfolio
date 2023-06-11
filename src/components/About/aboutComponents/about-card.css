@@ -70,7 +70,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-width: 20rem;
+        min-width: 15rem;
         max-width: 24rem;
         min-height: 35rem;
         max-height: 40rem;
@@ -78,7 +78,7 @@
     }
     
     .about-text{
-        min-width: 20rem;
+        min-width: 15rem;
         max-width: 25rem;
         min-height: 15rem;
         max-height: 20rem;
@@ -99,15 +99,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-width: 27rem;
-        max-width: 31rem;
+        min-width: 23rem;
+        max-width: 27rem;
         min-height: 40rem;
         max-height: 50rem;
 
     }
     
     .about-text{
-        min-width: 22rem;
+        min-width: 18rem;
         max-width: 25rem;
         min-height: 20rem;
         max-height: 24rem;
@@ -115,7 +115,7 @@
     }
     
     .about-img{
-        min-width: 20rem;
+        min-width: 15rem;
         max-width:23rem;
         min-height: 20rem;
         max-height: 23rem;
@@ -125,7 +125,7 @@
 /* Laptops */
 @media (min-width: 768px) and (max-width: 1024px) {
     .about-card{
-        min-width: 45rem;
+        min-width: 40rem;
         max-width: 60rem;
         min-height: 10rem;
         max-height: 15rem;
@@ -133,7 +133,7 @@
     }
     
     .about-text{
-        min-width: 26rem;
+        min-width: 21rem;
         max-width: 30rem;
         min-height: 10rem;
         max-height: 15rem;
@@ -141,7 +141,7 @@
     }
     
     .about-img{
-        min-width: 10rem;
+        min-width: 15rem;
         max-width:15rem;
         min-height: 10rem;
         max-height: 15rem;
@@ -151,7 +151,7 @@
 /* Desktop */
 @media (min-width: 1024px) {
     .about-card{
-        min-width: 62rem;
+        min-width: 57rem;
         max-width: 70rem;
         min-height: 15rem;
         max-height: 20rem;
@@ -159,7 +159,7 @@
     }
     
     .about-text{
-        min-width: 36rem;
+        min-width: 32rem;
         max-width: 30rem;
         min-height: 15rem;
         max-height: 20rem;

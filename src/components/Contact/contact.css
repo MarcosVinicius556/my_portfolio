@@ -1,9 +1,30 @@
 .contact-me {
-    height: 900px;
+    height: 620px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid purple;
     animation: reveal .5s ease-in-out;
 }
+
+.contact-title {
+    font-size: 52px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    .contact-title {
+        font-size: 42px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 480px) and (max-width: 768px) { }
+
+/* Laptops */
+@media (min-width: 768px) and (max-width: 1024px) { }
+
+/* Desktop */
+@media (min-width: 1024px) { }

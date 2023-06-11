@@ -9,12 +9,14 @@ function PageHeader() {
         <Container>
           <Navbar.Brand href="#section-presentation">
             <div className="header-info">
-              <p className="name-logo">M</p> <p>Marcos Vinicius Angeli Costa</p>
+              <p className="name-logo">M</p>
+              <p>Marcos Vinicius Angeli Costa</p>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto"></Nav>
+            <Nav>
               <Nav.Link as={Link} to = "/">Apresentação</Nav.Link>
               <Nav.Link as={Link} to = "/about">Sobre</Nav.Link>
               <Nav.Link as={Link} to = "/projects">Projetos</Nav.Link>

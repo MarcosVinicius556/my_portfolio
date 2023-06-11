@@ -1,0 +1,45 @@
+#loading-spinner{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url('../../../../assets//loading.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: loadingPulse 3s infinite ease-in-out;
+
+    -webkit-box-shadow: 0px 0px 34px 34px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 34px 34px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 34px 34px rgba(0,0,0,0.75);
+}
+
+@keyframes loadingPulse {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    #loading-spinner{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 480px) and (max-width: 768px) { }
+
+/* Laptops */
+@media (min-width: 768px) and (max-width: 1024px) { }
+
+/* Desktop */
+@media (min-width: 1024px) { }

@@ -31,7 +31,7 @@ function About() {
     return () => window.removeEventListener('resize', handleSize);
     }, []);
 
-  const textoCrianca = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis dolore? A molestiae autem, ratione ab doloribus, fugit reprehenderit, beatae totam nihil assumenda vel magni in ipsa esse eos quidem!';
+  const textoCrianca = 'Olá, me chamo Marcos Vinicius Angeli Costa! Vou contar aqui um poquinho da minha trajetoria.';
   const textoJovem = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis dolore? A molestiae autem, ratione ab doloribus, fugit reprehenderit, beatae totam nihil assumenda vel magni in ipsa esse eos quidem!';
   const textoAdulto = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis dolore? A molestiae autem, ratione ab doloribus, fugit reprehenderit, beatae totam nihil assumenda vel magni in ipsa esse eos quidem!';
   const textoProfissional = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis dolore? A molestiae autem, ratione ab doloribus, fugit reprehenderit, beatae totam nihil assumenda vel magni in ipsa esse eos quidem!';

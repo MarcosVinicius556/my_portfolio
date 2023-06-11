@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     animation: reveal .5s ease-in-out;
+    width: 100%;
 }
 
 

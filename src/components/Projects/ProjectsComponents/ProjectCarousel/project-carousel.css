@@ -83,6 +83,12 @@
   .main-carousel{
    width: 100%;
   }
+  .btn-carousel {
+    min-height: 100px;
+    max-height: 120px;
+    min-width: 40px;
+    max-width: 130px;
+  }
 }
 
 /* Tablets */
@@ -90,6 +96,12 @@
   .main-carousel{
     width: 90%;
    }
+   .btn-carousel {
+      min-height: 120px;
+      max-height: 140px;
+      min-width: 50px;
+      max-width: 140px;
+  }
 }
 
 /* Laptops */
@@ -97,6 +109,12 @@
   .main-carousel{
     width: 80%;
    }
+   .btn-carousel {
+    min-height: 130px;
+    max-height: 150px;
+    min-width: 50px;
+    max-width: 140px;
+  }
 }
 
 /* Desktop */
@@ -104,4 +122,10 @@
   .main-carousel{
     width: 70%;
    }
+   .btn-carousel {
+    min-height: 140px;
+    max-height: 160px;
+    min-width: 60px;
+    max-width: 150px;
+  }
 }

@@ -7,6 +7,10 @@
 
 body {
   background: #323232;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+    
 }
 
 :target {
@@ -38,3 +42,4 @@ to{
     opacity: 1;
 }
 }
+

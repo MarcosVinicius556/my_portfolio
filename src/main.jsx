@@ -6,7 +6,8 @@ import PresentationPage from "./routes/PresentationPage"
 import AboutPage from "./routes/AboutPage"
 import ProjectsPage from "./routes/ProjectsPage"
 import ContactPage from "./routes/ContactPage"
-import './index.css'
+import './index.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 const router = createBrowserRouter([
   {
