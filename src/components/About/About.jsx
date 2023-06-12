@@ -4,6 +4,7 @@ import ImgCrianca from '../../assets/kid.png';
 import ImgDev from '../../assets/dev-img.png';
 import ImgGuitar from '../../assets/guitar.png';
 import ImgWorker from '../../assets/worker.png';
+import { textoCrianca, textoJovem, textoAdulto, textoProfissional } from '../../assets/aboutText';
 import './about.css';
 
 function About() {
@@ -30,11 +31,6 @@ function About() {
 
     return () => window.removeEventListener('resize', handleSize);
     }, []);
-
-  const textoCrianca = 'Olá, me chamo Marcos Vinicius Angeli Costa! Vou contar aqui um poquinho da minha trajetoria.';
-  const textoJovem = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis dolore? A molestiae autem, ratione ab doloribus, fugit reprehenderit, beatae totam nihil assumenda vel magni in ipsa esse eos quidem!';
-  const textoAdulto = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis dolore? A molestiae autem, ratione ab doloribus, fugit reprehenderit, beatae totam nihil assumenda vel magni in ipsa esse eos quidem!';
-  const textoProfissional = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, veritatis dolore? A molestiae autem, ratione ab doloribus, fugit reprehenderit, beatae totam nihil assumenda vel magni in ipsa esse eos quidem!';
 
   return (
     <section className="about" id="section-about">

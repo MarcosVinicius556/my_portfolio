@@ -151,7 +151,7 @@
 /* Desktop */
 @media (min-width: 1024px) {
     .about-card{
-        min-width: 57rem;
+        min-width: 67rem;
         max-width: 70rem;
         min-height: 15rem;
         max-height: 20rem;
@@ -159,7 +159,7 @@
     }
     
     .about-text{
-        min-width: 32rem;
+        min-width: 35rem;
         max-width: 30rem;
         min-height: 15rem;
         max-height: 20rem;
