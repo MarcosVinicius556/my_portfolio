@@ -13,7 +13,7 @@ body {
     
 }
 
-/* :target {
+:target {
     scroll-margin-top: .8em;
 }
 
@@ -31,7 +31,7 @@ body {
 ::-webkit-scrollbar-thumb{
   border-radius: 5px;
   background: linear-gradient(45deg, #434343,#1c1c1c, #464646);
-} */
+}
 
 
 @keyframes reveal {

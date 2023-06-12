@@ -11,7 +11,6 @@ function ProjectCard(obj) {
         <div className="lang-container">
             <p className="main-language">Linguagem principal: {obj.project.language}</p>
         </div>
-        {console.log(obj.project.html_url)}
         <a className="project-redirect" href={obj.project.html_url} target="blank">Visualizar no GitHub</a>
     </div>
   )

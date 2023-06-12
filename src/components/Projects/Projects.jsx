@@ -29,10 +29,7 @@ function Projects() {
                   <>
                     <h1>Meus projetos</h1>
                     <p className='projects-text'>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Recusandae, accusamus quaerat corporis, voluptas aut minus
-                      perferendis iure non iste fuga atque ullam magni.
-                      Nulla repellat cum neque quidem accusamus soluta.
+                    Abaixo estão listados todos os projetos disponíveis no meu GitHub. Eles foram desenvolvidos com o objetivo de compreender o funcionamento de determinadas ferramentas ou simplesmente dar vida a ideias que surgiram. Sinta-se à vontade para explorar o código-fonte e testar!
                     </p>
                     <ProjectCarousel projectList={projects} />
                     </>

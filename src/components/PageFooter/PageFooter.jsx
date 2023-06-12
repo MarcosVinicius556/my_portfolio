@@ -14,7 +14,7 @@ function PageFooter() {
 					</a>
 				</li>
 				<li>	
-					<a href="https://api.whatsapp.com/send?phone=5549998266688&text=Ol%C3%A1,%20agradecemos%20pelo%20seu%20contato,%20em%20breve%20sua%20mensagem%20ser%C3%A1%20respondida!" target="_blank" rel="noopener noreferrer">
+					<a href="https://contate.me/dev_marcos_vinicius" target="_blank" rel="noopener noreferrer">
 						<i className="fab fa-whatsapp" />
 					</a>
 				</li>
