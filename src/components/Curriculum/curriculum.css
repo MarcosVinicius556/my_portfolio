@@ -22,4 +22,6 @@
     font-size: 25px;
     color: #fff;
     border: none;
+
+    transition: background .2s ease-in-out;
 }
