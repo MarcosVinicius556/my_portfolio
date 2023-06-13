@@ -1,5 +1,6 @@
 .view{
     background: #388642;
+    border-radius: 0px  10px 10px 0px;
 }
 
 .view:hover{

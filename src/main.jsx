@@ -6,6 +6,7 @@ import PresentationPage from "./routes/PresentationPage"
 import AboutPage from "./routes/AboutPage"
 import ProjectsPage from "./routes/ProjectsPage"
 import ContactPage from "./routes/ContactPage"
+import CurriculumPage from "./routes/CurriculumPage.jsx";
 import './index.css';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { path: '/', element: <PresentationPage /> },
       { path: '/about', element: <AboutPage /> },
       { path: '/projects', element: <ProjectsPage /> },
+      { path: '/curriculum', element: <CurriculumPage /> },
       { path: '/contact', element: <ContactPage /> },
     ]
   }

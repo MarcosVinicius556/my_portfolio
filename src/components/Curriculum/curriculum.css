@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    animation: reveal .5s ease-in-out;
 }
 
 .curriculum-page h1{
@@ -20,4 +21,5 @@
     text-decoration: none;
     font-size: 25px;
     color: #fff;
+    border: none;
 }

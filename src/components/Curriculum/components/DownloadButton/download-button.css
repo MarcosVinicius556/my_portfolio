@@ -1,5 +1,6 @@
 .download{
     background: #403bab;
+    border-radius: 10px  0px 0px 10px;
 }
 
 .download:hover{
