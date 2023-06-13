@@ -20,6 +20,7 @@ function PageHeader() {
               <Nav.Link as={Link} to = "/">Apresentação</Nav.Link>
               <Nav.Link as={Link} to = "/about">Sobre</Nav.Link>
               <Nav.Link as={Link} to = "/projects">Projetos</Nav.Link>
+              <Nav.Link as={Link} to = "/curriculum">Currículo</Nav.Link>
               <Nav.Link as={Link} to = "/contact">Contato</Nav.Link>
             </Nav>
           </Navbar.Collapse>

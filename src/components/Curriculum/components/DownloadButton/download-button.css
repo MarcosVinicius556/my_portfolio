@@ -1,0 +1,8 @@
+.download{
+    background: #403bab;
+}
+
+.download:hover{
+    background: #28256b;
+    color: #fff;
+}

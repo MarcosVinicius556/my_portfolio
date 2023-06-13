@@ -1,0 +1,23 @@
+.curriculum-page{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.curriculum-page h1{
+    color: #fff;
+    font-size: 62px;
+}
+
+.buttons-container{
+
+}
+
+.curriculum-button{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
